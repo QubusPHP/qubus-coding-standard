@@ -1,0 +1,35 @@
+{
+    "name": "qubus/coding-standard",
+    "description": "Coding standards for QubusPHP components and framework.",
+    "type": "library",
+    "keywords": [
+        "qubusphp",
+        "coding standard"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Parker",
+            "email": "josh@joshuaparker.blog"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/QubusPHP/coding-standard/issues"
+    },
+    "require": {
+        "php": "^7.4",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "slevomat/coding-standard": "^6.4",
+        "squizlabs/php_codesniffer": "^3.5",
+        "webimpress/coding-standard": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "QubusPHPCodingStandard\\": "src/QubusPHPCodingStandard/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
