@@ -17,18 +17,18 @@ QubusPHP coding standards loosely follows the [Laminas Coding Style Guide](https
 
 1. Install the coding standard as a dependency of your project:
 
-```bash
+```
 $ composer require --dev qubus/qubus-coding-standard
 ```
 
 2. Add coding standard to the PHP_CodeSniffer install path:
 
-```bash
+```
  vendor/bin/phpcs --config-set installed_paths vendor/qubus/qubus-coding-standard
 ```
 
 3. Run the standards:
 
-```bash
+```
  vendor/bin/phpcs /path/to/code
 ```
