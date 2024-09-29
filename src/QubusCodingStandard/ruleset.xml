@@ -92,7 +92,6 @@
             <property name="indent" value="4"/>
             <property name="exact" value="true"/>
             <property name="tabIndent" value="true"/>
-            <property name="--tab-width" value="4"/>
         </properties>
     </rule>
     <rule ref="Generic.WhiteSpace.DisallowSpaceIndent">
