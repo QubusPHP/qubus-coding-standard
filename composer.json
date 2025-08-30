@@ -29,6 +29,7 @@
     }
   },
   "require-dev": {
-    "pestphp/pest": "^4.0"
+    "pestphp/pest": "^4.0",
+    "phpunit/phpunit": "^12.3"
   }
 }
