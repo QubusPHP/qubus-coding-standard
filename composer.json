@@ -17,13 +17,15 @@
   ],
   "require": {
     "php": ">=8.4",
-    "pestphp/pest": "^4.0",
-    "phpunit/phpunit": "^12.3",
     "squizlabs/php_codesniffer": "^3",
     "slevomat/coding-standard": "^8",
     "webimpress/coding-standard": "^1",
-    "dealerdirect/phpcodesniffer-composer-installer": "^1",
-    "mockery/mockery": "^1.6"
+    "dealerdirect/phpcodesniffer-composer-installer": "^1"
+  },
+  "require-dev": {
+    "pestphp/pest": "^4",
+    "phpunit/phpunit": "^12",
+    "mockery/mockery": "^1"
   },
   "config": {
     "allow-plugins": {
