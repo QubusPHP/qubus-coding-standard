@@ -23,7 +23,6 @@
     "dealerdirect/phpcodesniffer-composer-installer": "^1"
   },
   "require-dev": {
-    "pestphp/pest": "^4",
     "mockery/mockery": "^1"
   },
   "config": {
