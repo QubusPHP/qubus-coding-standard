@@ -21,9 +21,10 @@
     "slevomat/coding-standard": "^8",
     "webimpress/coding-standard": "^1",
     "dealerdirect/phpcodesniffer-composer-installer": "^1",
-    "pestphp/pest": "^4",
+    "pestphp/pest": "^4.3.2",
     "mockery/mockery": "^1",
-    "phpstan/phpstan": "^2"
+    "phpstan/phpstan": "^2",
+    "phpunit/phpunit": "^12.5.8"
   },
   "config": {
     "allow-plugins": {
